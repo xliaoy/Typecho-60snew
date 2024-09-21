@@ -6,6 +6,16 @@
 1. 复制下方代码保存到 typecho 的任意一个目录 推荐创建一个 60s 文件夹然后新建一个 index.php 的文件 把代码丢进去
 2. 代码里面需要修改的地方我已经给你们标注出来了
 3. 添加宝塔定时任务 任务类型:访问url 任务名称:随便设置 执行周期:每天 7 小时 30 分钟 脚本内容:就是你的域名/60s 保存完事
+4. 要是 https://协议的链接用下方 shell 代码
+```shell-session
+#!/bin/bash
+
+# 要访问的 HTTPS 链接
+url="你的文件链接"
+
+# 使用 curl 访问链接
+curl -k $url
+```
 # Typecho-60snew
 ##WYSIWYG, stop talking nonsense, just throw the code and don't want to talk about it
 

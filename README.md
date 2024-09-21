@@ -17,9 +17,9 @@ url="你的文件链接"
 curl -k $url
 ```
 # Typecho-60snew
-##WYSIWYG, stop talking nonsense, just throw the code and don't want to talk about it
+## WYSIWYG, stop talking nonsense, just throw the code and don't want to talk about it
 
-###Usage Tutorial
+### Usage Tutorial
 
 1. Copy the code below and save it to any directory in typeecho. It is recommended to create a 60s folder and then create a new index.php file and throw the code in it.
 2. I have marked out the changes in the code for you

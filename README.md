@@ -24,3 +24,13 @@ curl -k $url
 1. Copy the code below and save it to any directory in typeecho. It is recommended to create a 60s folder and then create a new index.php file and throw the code in it.
 2. I have marked out the changes in the code for you
 3. Add pagoda scheduled task task type: access url task name: casually set execution cycle: 7 hours and 30 minutes per day Script content: It's your domain name/60s Save the matter
+4. If the https: / / protocol link uses the following shell code
+```shell-session
+#!/bin/bash
+
+# Https: / / link to visit
+url="Your file link for example: https: / / domain / 60s"
+
+# Access with curl
+curl -k $url
+```
